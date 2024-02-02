@@ -52,7 +52,7 @@ const ProductCard = (props) => {
           role={'presentation'}
           onClick={(e) => handleFavorite(e)}
         >
-          <Icon symbol={'heart'} />
+          <Icon symbol={'search'} />
           <div
             className={`${styles.heartFillContainer} ${
               isWishlist === true ? styles.show : styles.hide
