@@ -22,7 +22,7 @@ const Title = (props) => {
       style={{ maxWidth: maxWidth, marginBottom: marginBottom }}
     >
       <h2 className={styles.title} style={{ color: color }}>
-        {'CATEGORIES'}
+        {'Karibu sana'}
       </h2>
       {subtitle && <span className={`${styles.subtitle}`}>{subtitle}</span>}
       {link && textLink && (
