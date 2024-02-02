@@ -13,6 +13,7 @@ const ProductCollection = (props) => {
       style={{ backgroundImage: `url(${image})` }}
     >
       <div className={styles.content}>
+        <div>{'Hello my images hsould come here'}</div>
         <span className={styles.title}>{title}</span>
         <span className={styles.text}>{text}</span>
       </div>
