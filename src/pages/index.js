@@ -31,8 +31,7 @@ const IndexPage = () => {
         maxWidth={'500px'}
         image={'/banner1.png'}
         title={'Essentials for a confident drape'}
-        subtitle={'Discover Autumn Winter 2021'}
-        ctaText={' chek out our merch'}
+        ctaText={' check out our merch'}
         ctaAction={goToShop}
       />
 
