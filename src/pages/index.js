@@ -52,7 +52,7 @@ const IndexPage = () => {
             spacing={true}
             showSlider
             height={480}
-            columns={3}
+            columns={4}
             data={newArrivals}
           />
         </Container>
