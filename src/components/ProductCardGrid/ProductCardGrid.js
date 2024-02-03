@@ -22,7 +22,7 @@ const ProductCardGrid = (props) => {
           price={product.price}
           imageAlt={product.alt}
           name={product.name}
-          image={product.image}
+          image={product.name}
           meta={product.meta}
           originalPrice={product.originalPrice}
           link={product.link}
