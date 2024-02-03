@@ -6,6 +6,7 @@ const ProductCollection = (props) => {
   const { image, title, text, link } = props;
 
   return (
+    <div>{'This revision 1'}</div>
     <div
       role={'presentation'}
       onClick={() => navigate(link)}
@@ -17,7 +18,6 @@ const ProductCollection = (props) => {
         <span className={styles.text}>{text}</span>
       </div>
       <div className={styles.overlay}></div>
-      <div>{'This revision 1'}</div>
     </div>
   );
 };
