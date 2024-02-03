@@ -6,7 +6,7 @@ const ProductCollection = (props) => {
   const { image, title, text, link } = props;
 
   return (
-    <div>{'This revision 1'}</div>
+    <div>{'This revision 3'}</div>
     <div
       role={'presentation'}
       onClick={() => navigate(link)}
