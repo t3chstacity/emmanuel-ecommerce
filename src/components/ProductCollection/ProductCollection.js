@@ -6,7 +6,6 @@ const ProductCollection = (props) => {
   const { image, title, text, link } = props;
 
   return (
-    <div>{'This revision 3'}</div>
     <div
       role={'presentation'}
       onClick={() => navigate(link)}
@@ -14,12 +13,17 @@ const ProductCollection = (props) => {
       style={{ backgroundImage: `url(${image})` }}
     >
       <div className={styles.content}>
+       
         <span className={styles.title}>{title}</span>
         <span className={styles.text}>{text}</span>
       </div>
       <div className={styles.overlay}></div>
     </div>
   );
+
+  return (
+    <div>{'Added new line here.'}</div>
+  )
 };
 
 export default ProductCollection;
