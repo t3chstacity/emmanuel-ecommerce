@@ -74,16 +74,7 @@ const IndexPage = () => {
         </Container>
       </div>
 
-      {/* Social Media */}
-      <div className={styles.socialContainer}>
-       
-        <div className={styles.socialContentGrid}>
-          <img src={`/social/socialMedia1.png`} alt={'social media 1'} />
-          <img src={`/social/socialMedia2.png`} alt={'social media 2'} />
-          <img src={`/social/socialMedia3.png`} alt={'social media 3'} />
-          <img src={`/social/socialMedia3.png`} alt={'social media 3 duplicate'} />
-        </div>
-      </div>
+     
       <AttributeGrid />
     </Layout>
   );
