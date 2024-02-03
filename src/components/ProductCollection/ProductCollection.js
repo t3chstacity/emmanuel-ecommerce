@@ -21,9 +21,6 @@ const ProductCollection = (props) => {
     </div>
   );
 
-  return (
-    
-  );
 };
 
 export default ProductCollection;
