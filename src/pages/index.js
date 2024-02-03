@@ -67,7 +67,7 @@ const IndexPage = () => {
             miniImage={'/highlightmin.jpg'}
             miniImageAlt={'mini highlight image'}
             title={'Luxury Knitwear'}
-            description={`This soft lambswool jumper is knitted in Scotland, using yarn from one of the world's oldest spinners based in Fife`}
+            description={`This soft lambswool jumper is knitted by the best craftsmen, using yarn from one of the world's oldest spinners based in Fife. So soft you won't take it off. Ever!`}
             textLink={'shop now'}
             link={'/shop'}
           />
@@ -76,15 +76,12 @@ const IndexPage = () => {
 
       {/* Social Media */}
       <div className={styles.socialContainer}>
-        <Title
-          name={'Styled by You'}
-          subtitle={'Tag @sydney to be featured.'}
-        />
+       
         <div className={styles.socialContentGrid}>
           <img src={`/social/socialMedia1.png`} alt={'social media 1'} />
           <img src={`/social/socialMedia2.png`} alt={'social media 2'} />
           <img src={`/social/socialMedia3.png`} alt={'social media 3'} />
-          <img src={`/social/socialMedia4.png`} alt={'social media 4'} />
+          <img src={`/social/socialMedia3.png`} alt={'social media 3 duplicate'} />
         </div>
       </div>
       <AttributeGrid />
