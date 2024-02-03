@@ -47,12 +47,12 @@ const IndexPage = () => {
       {/* New Arrivals */}
       <div className={styles.newArrivalsContainer}>
         <Container>
-          <Title textLink={'Arrivals for you'} link={'/shop'} textLink2={'CHECK OUT MORE DESIGNS'} />
+          <Title textLink={'Arrivals for everyone'} link={'/shop'} />
           <ProductCardGrid
             spacing={true}
             showSlider
             height={480}
-            columns={4}
+            columns={3}
             data={newArrivals}
           />
         </Container>
