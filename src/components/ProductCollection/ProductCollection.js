@@ -22,7 +22,7 @@ const ProductCollection = (props) => {
   );
 
   return (
-    <div>{'Added new line here.'}</div>
+    
   );
 };
 
