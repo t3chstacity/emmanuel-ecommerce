@@ -17,8 +17,8 @@ const ProductCollection = (props) => {
         <span className={styles.text}>{text}</span>
       </div>
       <div className={styles.overlay}></div>
+      <div>{'Home is where the stocks matter'}</div>
     </div>
-    <div>{'Home is where the stocks matter'}</div>
   );
 };
 
